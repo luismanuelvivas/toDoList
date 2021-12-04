@@ -1,5 +1,5 @@
 html,body{
-    width:50%;
+    width:60%;
     margin:0 auto;
     font-family:Arial, Helvetica, sans-serif;
     background:black;
@@ -15,11 +15,11 @@ html,body{
 }
 
 .container{
-    width:360px;
+    width:100%;
 }
 
 #inputField{
-    width:250px;
+    width:70%;
     height: 46px;
     background:none;
     border:1px solid white;
@@ -32,7 +32,7 @@ html,body{
 
 #addToDo{
     height:50px;
-    width:50px;
+    width:20%;
     background:#EC255A;
     border:1px solid #EC255A;
     border-radius: 10px;;
@@ -59,3 +59,16 @@ html,body{
     text-decoration:line-through;
     color:#EC255A;
 }
+
+
+ @media (max-width: 1000px) {
+     
+.principal-container{
+    margin:10px auto;
+
+}
+
+html,body{
+    width:80%;
+}
+ }
